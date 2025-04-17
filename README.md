@@ -32,6 +32,15 @@ Space : 무기 발사
 
 시간 제한(100초) 기능 포함
 
+공 분열시 400점 추가, 화면 왼쪽 현 스코어 및 분열된공에 + 400 표시 기능 구현
+
+![image](https://github.com/user-attachments/assets/d83c83d9-d855-4258-9942-6be748c92c7c)
+
+
+게임 종료시 다시하기 게임 끝내기 표시 메뉴 구현
+
+![image](https://github.com/user-attachments/assets/01d76cae-0500-4db9-aa99-35eb52a17993)
+
 ## 🛠️ 공 분열 관련 버그 수정
 마지막 크기(balloon4.png)로 분열 시
 정상적으로 두 개의 공이 생성되지 않고, 작은 크기 공 하나만 분열 되고 기존의 공은 그대로 움직이는 오류가 있었습니다.
@@ -113,7 +122,7 @@ Space : 무기 발사
 <pre>python pang_game.py</pre>
 
 ## 🎯 향후 개선 아이디어
-점수 시스템 추가
+점수 시스템 추가 ✅
 
 게임 난이도 설정 (속도 조절, 공 개수 조정 등)
 
